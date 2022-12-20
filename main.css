@@ -1,0 +1,174 @@
+
+body {
+background-color:  #FAFAFA;
+font-family: "Poppins";
+margin: 0;
+overflow-x: hidden; 
+}
+header {
+padding: 0;
+color:  #4D4F62; 
+}
+header h1 {
+font-size: 24px;
+font-weight: 300;
+line-height: 36px;
+letter-spacing: 0.1666666716337204px;
+text-align: center;
+
+margin: 85px  10.6vw  0 10.6vw;
+min-width: 305px;
+
+}
+
+header h2 {
+font-size: 24px;
+font-weight: 600;
+line-height: 36px;
+letter-spacing: 0.1666666716337204px;
+text-align: center;
+margin: 0 10.6vw 0 10.6vw;
+min-width: 305px;
+ 
+}
+
+header p {
+
+font-size: 15px;
+font-weight: 400;
+line-height: 25px;
+letter-spacing: 0.1041666641831398px;
+Text-align: center;
+opacity: 50%;
+margin: 13px 8.5vw 0 8.5vw;
+}
+main section {
+background-color:white; 
+width: 82.9vw; 
+height: 222px;
+margin: 24px 8.5vw 25px 8.5vw;
+padding: 27px 7.4vw 28px 7.4vw;
+border-radius: 8px;
+box-sizing: border-box;
+box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.5);
+
+
+}
+
+#supervisor {
+margin-top: 76px;
+border-top: 3.35px solid #44D3D2;
+
+}
+
+#team_builder {
+border-top: 3.35px solid #EA5454;
+}
+
+#karma {
+border-top: 3.55px solid #FCAE4A;
+}
+
+#calculator {
+border-top: 3.55px solid #549EF2;
+margin-bottom: 78px;
+}
+
+ h3 {
+ 
+font-size: 20px;
+font-weight: 600;
+line-height: 30px;
+letter-spacing: 0px;
+text-align: left;
+color: #4D4F62;
+margin: 0;
+} 
+
+main section p {
+
+font-size: 13px;
+font-weight: 400;
+line-height: 23px;
+letter-spacing: 0.0902777761220932px;
+text-align: left;
+color: #4D4F62;
+opacity: 50%;
+margin: 1px 0 33px 0;
+}
+
+svg {
+float: right; 
+margin: 0;
+}
+
+@media screen and (min-width: 850px) {
+
+
+  
+header h1 {
+
+font-size: 36px;
+font-weight: 300;
+line-height: 54px;
+letter-spacing: 0.25px;
+margin: 80px  auto 0 auto; 
+width: 500px; 
+text-align: center;  
+}
+header h2 {
+font-size: 36px;
+font-weight: 600;
+line-height: 54px;
+letter-spacing: 0.25px;
+margin: 1px auto 0 auto;
+width: 500px;
+text-align: center; 
+}
+
+header p {
+margin: 13px auto 0 auto;
+width: 540px;  
+}
+
+main{
+display: flex; 
+flex-wrap: wrap; 
+height: 600px;
+margin: 64px auto 80px auto;
+max-width: 1120px;
+flex-flow: column wrap;
+width: 97vw;
+}
+main section {
+flex: 0 0 256px;
+
+margin: 15px;
+width: min(28.6vw, 350px);
+padding: 32px;
+
+}
+
+#supervisor {
+justify-self: center; 
+margin-top: 120px;
+
+}
+
+#team-builder {
+
+justify-self: center; 
+align-self: flex-start;
+}
+
+#karma {
+justify-self: center; 
+
+}
+
+#calculator {
+justify-self: flex-end; 
+
+margin-top: 120px;
+}
+}
